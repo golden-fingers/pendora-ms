@@ -1,1 +1,34 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
+
+</head>
+
+<body>
+
+  <div id="qunit"></div>
+  <div id="qunit-fixture"><script src="https://code.jquery.com/qunit/qunit-2.1.1.js"></script></div>
+  
+	<div id="TimerDiv" "></div>
+	<script type="text/javascript" src="src.js"></script>
+	<script type="text/javascript" src="test.js"></script>
+
+	
+
+	
+		 <button onclick="PTimer().stop(passedTime);PTimer().setMinutes(1);PTimer().EnableButton();">1</button>
+	     <button onclick="PTimer().stop(passedTime);PTimer().setMinutes(10);PTimer().EnableButton();">10</button>
+	     <button onclick="PTimer().stop(passedTime);PTimer().setMinutes(25);PTimer().EnableButton();">25</button>
+	     <button id="ClickButton" onclick="PTimer().startTime(minutes*60) ;PTimer().DisableButton(); ">Click me</button> 
+	     <button onclick="PTimer().pause()">pause</button>
+		 <button onclick="PTimer().Reset()">Reset</button>
+
+
+
+
+</body>
+
+</html>
