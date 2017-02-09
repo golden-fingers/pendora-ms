@@ -12,10 +12,10 @@
 
 
 
-function PTimer(){
+       function PTimer(){
 
 	
-	var	methods = {
+	    var	methods = {
 
 
 				passed : function(){return testpassedTime;},
@@ -55,7 +55,7 @@ function PTimer(){
 				           clearTimeout(timer);
 				           timer = false ;
 
-                         return timer;
+                                 return timer;
 				       } 
 				 },
 				 pause : function () {
@@ -70,7 +70,7 @@ function PTimer(){
 				 },
 
 
-			   Reset : function (min){
+			       Reset : function (min){
 
 						PTimer().stop(passedTime);
 						document.getElementById('box').innerHTML = "00 : 00" ;
