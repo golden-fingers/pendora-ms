@@ -10,9 +10,8 @@ When you start working on a project, you will press the timer to alarm you once 
 1. We have three buttons, each one point for specific minutes (1,10,25)
 2. Press the minutes buttons then press 'Start' button so the
 timer will start counting from that point
-3. Once the time is zero, the alarm should work
-4. If the user want to pause the timer, he can click on 'Pause' button to stop it temporary
-5. The 'Stop' button is to stop the timer and the 'Reset' is to start again
+3. If the user want to pause the timer, he can click on 'Pause' button to stop it temporary
+4. The 'pause/Start' button is to stop the timer if it is running or to start it if it is pause
 
 
 <h1> Project Plan: </h1>
