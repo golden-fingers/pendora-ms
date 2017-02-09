@@ -33,9 +33,8 @@ timer will start counting from that point
 5. as a user I need to re-start the timer
 
 <h1> Test cases: </h1>
-1. settime is exists?
-2. setminutes is exists ?
-3. add zero is exists ?
-4. stop is exists ?
-5. set minute should return
-6. initialTime should be number
+1. Method PTimer() exist"
+2. Function Timer should return Object
+3. Function startTime should return the time as a string"
+4. Function stop should stop the timer --change it's value to false
+5. variable time change every time interval (1 second)
