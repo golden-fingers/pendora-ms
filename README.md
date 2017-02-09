@@ -2,6 +2,8 @@
 javascrit Timer
 <h1> The program idea: </h1>
 
+(Online Link)[link](https://golden-fingers.github.io/pendora-ms/)
+
 When you start working on a project, you will press the timer to alarm you once it's done.
 
 <h1> The timer logic: </h1>
